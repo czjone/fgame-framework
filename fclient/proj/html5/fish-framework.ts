@@ -1,0 +1,5 @@
+namespace fish {
+    class Game{
+        
+    }
+}

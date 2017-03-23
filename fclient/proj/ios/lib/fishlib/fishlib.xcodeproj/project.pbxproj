@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1338F8F51E5AA16F00E914D9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1338F8F41E5AA16F00E914D9 /* JavaScriptCore.framework */; };
+		1349FDDD1E5D1A2A005B9A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349FDDC1E5D1A2A005B9A7C /* Foundation.framework */; };
+		1349FDDF1E5D1A52005B9A7C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349FDDE1E5D1A52005B9A7C /* CoreFoundation.framework */; };
+		137560691E6E4F6600437B4A /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 137560671E6E4F6600437B4A /* Game.cpp */; };
+		138CF0851E5C1587007D0167 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138CF0841E5C1587007D0167 /* OpenGLES.framework */; };
+		138CF09A1E5C5C93007D0167 /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 138CF08D1E5C5C93007D0167 /* Event.cpp */; };
+		138CF09B1E5C5C93007D0167 /* Ref.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 138CF0911E5C5C93007D0167 /* Ref.cpp */; };
+		139007561E5E8608009BDAD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139007551E5E8608009BDAD3 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1338F8E51E5AA12A00E914D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1338F8E71E5AA12A00E914D9 /* libfish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfish.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1338F8F41E5AA16F00E914D9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1349FDDC1E5D1A2A005B9A7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1349FDDE1E5D1A52005B9A7C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		137560671E6E4F6600437B4A /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		137560681E6E4F6600437B4A /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		138CF0841E5C1587007D0167 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		138CF08C1E5C5C93007D0167 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		138CF08D1E5C5C93007D0167 /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Event.cpp; sourceTree = "<group>"; };
+		138CF08E1E5C5C93007D0167 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		138CF08F1E5C5C93007D0167 /* fsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fsys.h; sourceTree = "<group>"; };
+		138CF0901E5C5C93007D0167 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		138CF0911E5C5C93007D0167 /* Ref.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ref.cpp; sourceTree = "<group>"; };
+		138CF0921E5C5C93007D0167 /* Ref.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ref.hpp; sourceTree = "<group>"; };
+		138CF0931E5C5C93007D0167 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		139007551E5E8608009BDAD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1338F8E41E5AA12A00E914D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139007561E5E8608009BDAD3 /* UIKit.framework in Frameworks */,
+				1349FDDF1E5D1A52005B9A7C /* CoreFoundation.framework in Frameworks */,
+				1349FDDD1E5D1A2A005B9A7C /* Foundation.framework in Frameworks */,
+				138CF0851E5C1587007D0167 /* OpenGLES.framework in Frameworks */,
+				1338F8F51E5AA16F00E914D9 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1338F8DE1E5AA12A00E914D9 = {
+			isa = PBXGroup;
+			children = (
+				1338F8E91E5AA12A00E914D9 /* fishlib */,
+				1338F8E81E5AA12A00E914D9 /* Products */,
+				1338F8F31E5AA16F00E914D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1338F8E81E5AA12A00E914D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1338F8E71E5AA12A00E914D9 /* libfish.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1338F8E91E5AA12A00E914D9 /* fishlib */ = {
+			isa = PBXGroup;
+			children = (
+				138CF08A1E5C5C93007D0167 /* classes */,
+			);
+			path = fishlib;
+			sourceTree = "<group>";
+		};
+		1338F8F31E5AA16F00E914D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139007551E5E8608009BDAD3 /* UIKit.framework */,
+				1349FDDE1E5D1A52005B9A7C /* CoreFoundation.framework */,
+				1349FDDC1E5D1A2A005B9A7C /* Foundation.framework */,
+				138CF0841E5C1587007D0167 /* OpenGLES.framework */,
+				1338F8F41E5AA16F00E914D9 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		137560601E6E4F4200437B4A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				137560611E6E4F4200437B4A /* gameObjects */,
+				137560621E6E4F4200437B4A /* plantformSupports */,
+				137560661E6E4F4200437B4A /* render */,
+				137560671E6E4F6600437B4A /* Game.cpp */,
+				137560681E6E4F6600437B4A /* Game.hpp */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		137560611E6E4F4200437B4A /* gameObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = gameObjects;
+			sourceTree = "<group>";
+		};
+		137560621E6E4F4200437B4A /* plantformSupports */ = {
+			isa = PBXGroup;
+			children = (
+				137560631E6E4F4200437B4A /* android */,
+				137560641E6E4F4200437B4A /* ios */,
+				137560651E6E4F4200437B4A /* win */,
+			);
+			path = plantformSupports;
+			sourceTree = "<group>";
+		};
+		137560631E6E4F4200437B4A /* android */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		137560641E6E4F4200437B4A /* ios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		137560651E6E4F4200437B4A /* win */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = win;
+			sourceTree = "<group>";
+		};
+		137560661E6E4F4200437B4A /* render */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = render;
+			sourceTree = "<group>";
+		};
+		138CF08A1E5C5C93007D0167 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				137560601E6E4F4200437B4A /* Game */,
+				138CF08B1E5C5C93007D0167 /* Core */,
+			);
+			name = classes;
+			path = ../../../../../classes;
+			sourceTree = "<group>";
+		};
+		138CF08B1E5C5C93007D0167 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				138CF08C1E5C5C93007D0167 /* Config.h */,
+				138CF08D1E5C5C93007D0167 /* Event.cpp */,
+				138CF08E1E5C5C93007D0167 /* Event.h */,
+				138CF08F1E5C5C93007D0167 /* fsys.h */,
+				138CF0901E5C5C93007D0167 /* Macros.h */,
+				138CF0911E5C5C93007D0167 /* Ref.cpp */,
+				138CF0921E5C5C93007D0167 /* Ref.hpp */,
+				138CF0931E5C5C93007D0167 /* Types.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1338F8E61E5AA12A00E914D9 /* fish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1338F8F01E5AA12A00E914D9 /* Build configuration list for PBXNativeTarget "fish" */;
+			buildPhases = (
+				1338F8E31E5AA12A00E914D9 /* Sources */,
+				1338F8E41E5AA12A00E914D9 /* Frameworks */,
+				1338F8E51E5AA12A00E914D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fish;
+			productName = fishlib;
+			productReference = 1338F8E71E5AA12A00E914D9 /* libfish.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1338F8DF1E5AA12A00E914D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = solyess;
+				TargetAttributes = {
+					1338F8E61E5AA12A00E914D9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1338F8E21E5AA12A00E914D9 /* Build configuration list for PBXProject "fishlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1338F8DE1E5AA12A00E914D9;
+			productRefGroup = 1338F8E81E5AA12A00E914D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1338F8E61E5AA12A00E914D9 /* fish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1338F8E31E5AA12A00E914D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137560691E6E4F6600437B4A /* Game.cpp in Sources */,
+				138CF09A1E5C5C93007D0167 /* Event.cpp in Sources */,
+				138CF09B1E5C5C93007D0167 /* Ref.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1338F8EE1E5AA12A00E914D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1338F8EF1E5AA12A00E914D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1338F8F11E5AA12A00E914D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					iOS,
+					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../classes\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1338F8F21E5AA12A00E914D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = iOS;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../classes\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1338F8E21E5AA12A00E914D9 /* Build configuration list for PBXProject "fishlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1338F8EE1E5AA12A00E914D9 /* Debug */,
+				1338F8EF1E5AA12A00E914D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1338F8F01E5AA12A00E914D9 /* Build configuration list for PBXNativeTarget "fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1338F8F11E5AA12A00E914D9 /* Debug */,
+				1338F8F21E5AA12A00E914D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1338F8DF1E5AA12A00E914D9 /* Project object */;
+}
